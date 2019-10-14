@@ -463,6 +463,130 @@
         "owner": "internal-data-bridge"
       }
     },
+    "c3d8fd2c-e213-50e4-9150-00b7ab8b3430": {
+      "resolve": "/Users/zbyszrom/Desktop/travel-blog/node_modules/gatsby-source-contentful",
+      "id": "c3d8fd2c-e213-50e4-9150-00b7ab8b3430",
+      "name": "gatsby-source-contentful",
+      "version": "2.0.40",
+      "pluginOptions": {
+        "plugins": [],
+        "spaceId": "exb1xk3aq7pb",
+        "accessToken": "bvOsa2U8q071deU7FEphF3e7-A8ej4V0b9cn3PzS9E4",
+        "host": "cdn.contentful.com",
+        "environment": "master"
+      },
+      "nodeAPIs": [
+        "setFieldsOnGraphQLNodeType",
+        "sourceNodes",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/zbyszrom/Desktop/travel-blog/node_modules/gatsby-source-contentful",
+      "packageJson": {
+        "name": "gatsby-source-contentful",
+        "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
+        "version": "2.0.40",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "author": {
+          "name": "Marcus Ericsson",
+          "email": "mericsson@gmail.com",
+          "url": "mericsson.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "axios",
+            "version": "^0.18.0"
+          },
+          {
+            "name": "base64-img",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "contentful",
+            "version": "^6.1.0"
+          },
+          {
+            "name": "deep-map",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.29"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.27"
+          },
+          {
+            "name": "is-online",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "json-stringify-safe",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "qs",
+            "version": "^6.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "ca10d079e653eebcf6ee3c3332ddb97a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "41ea0458-2ccb-56b5-86eb-a8951ae11c71": {
       "resolve": "/Users/zbyszrom/Desktop/travel-blog/node_modules/gatsby-plugin-google-fonts",
       "id": "41ea0458-2ccb-56b5-86eb-a8951ae11c71",
@@ -986,6 +1110,10 @@
             "version": "^1.0.0"
           },
           {
+            "name": "eslint-utils",
+            "version": "^1.4.2"
+          },
+          {
             "name": "gatsby",
             "version": "^2.2.1"
           },
@@ -1028,6 +1156,10 @@
           {
             "name": "gatsby-transformer-sharp",
             "version": "^2.1.17"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.15"
           },
           {
             "name": "prop-types",
@@ -1177,556 +1309,13 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-10-14T22:35:40.582Z",
+      "buildTime": "2019-10-14T23:16:59.049Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "c1e2d8181cc999c7d267ca5b865723af",
+        "contentDigest": "c4af55271d9f0dcf166514feec7a1644",
         "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "379329aa-b44a-5c14-a89a-e97169db5667": {
-      "id": "379329aa-b44a-5c14-a89a-e97169db5667",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "546c93e00982cef7701d589bf4d38b25",
-        "type": "Directory",
-        "description": "Directory \"src/images\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/zbyszrom/Desktop/travel-blog/src/images",
-      "relativePath": "",
-      "extension": "",
-      "size": 288,
-      "prettySize": "288 B",
-      "modifiedTime": "2019-10-14T08:55:46.000Z",
-      "accessTime": "2019-10-14T08:55:46.000Z",
-      "changeTime": "2019-10-14T08:55:46.471Z",
-      "birthTime": "2019-03-22T21:59:23.000Z",
-      "root": "/",
-      "dir": "/Users/zbyszrom/Desktop/travel-blog/src",
-      "base": "images",
-      "ext": "",
-      "name": "images",
-      "relativeDirectory": "..",
-      "dev": 16777220,
-      "mode": 16877,
-      "nlink": 9,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12283228,
-      "blocks": 0,
-      "atimeMs": 1571043346000,
-      "mtimeMs": 1571043346000,
-      "ctimeMs": 1571043346470.8765,
-      "birthtimeMs": 1553291963000,
-      "atime": "2019-10-14T08:55:46.000Z",
-      "mtime": "2019-10-14T08:55:46.000Z",
-      "ctime": "2019-10-14T08:55:46.471Z",
-      "birthtime": "2019-03-22T21:59:23.000Z"
-    },
-    "16280fae-bd8d-5730-a4e2-a1a168fe1124": {
-      "id": "16280fae-bd8d-5730-a4e2-a1a168fe1124",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "d1f7059e9f2d34e59c1fd71d7168dde5",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/compass-logo.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/zbyszrom/Desktop/travel-blog/src/images/compass-logo.svg",
-      "relativePath": "compass-logo.svg",
-      "extension": "svg",
-      "size": 1375,
-      "prettySize": "1.38 kB",
-      "modifiedTime": "2019-03-19T22:32:46.000Z",
-      "accessTime": "2019-10-14T08:55:32.420Z",
-      "changeTime": "2019-10-14T08:55:26.320Z",
-      "birthTime": "2019-03-19T22:32:46.000Z",
-      "root": "/",
-      "dir": "/Users/zbyszrom/Desktop/travel-blog/src/images",
-      "base": "compass-logo.svg",
-      "ext": ".svg",
-      "name": "compass-logo",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12283229,
-      "blocks": 8,
-      "atimeMs": 1571043332420.4856,
-      "mtimeMs": 1553034766000,
-      "ctimeMs": 1571043326320.3354,
-      "birthtimeMs": 1553034766000,
-      "atime": "2019-10-14T08:55:32.420Z",
-      "mtime": "2019-03-19T22:32:46.000Z",
-      "ctime": "2019-10-14T08:55:26.320Z",
-      "birthtime": "2019-03-19T22:32:46.000Z"
-    },
-    "e09a7144-5683-5b48-a6ce-a8a2d7fed4e1": {
-      "id": "e09a7144-5683-5b48-a6ce-a8a2d7fed4e1",
-      "children": [
-        "ae60c2c5-37aa-5e7b-84df-dffe576a713d"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "4d2d86260115cb8f6d9d06951f0c6f62",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/favicon.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/zbyszrom/Desktop/travel-blog/src/images/favicon.png",
-      "relativePath": "favicon.png",
-      "extension": "png",
-      "size": 31548,
-      "prettySize": "31.5 kB",
-      "modifiedTime": "2019-03-22T21:59:23.000Z",
-      "accessTime": "2019-10-14T08:55:32.421Z",
-      "changeTime": "2019-10-14T08:55:26.325Z",
-      "birthTime": "2019-03-22T21:59:23.000Z",
-      "root": "/",
-      "dir": "/Users/zbyszrom/Desktop/travel-blog/src/images",
-      "base": "favicon.png",
-      "ext": ".png",
-      "name": "favicon",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12283232,
-      "blocks": 64,
-      "atimeMs": 1571043332420.6775,
-      "mtimeMs": 1553291963000,
-      "ctimeMs": 1571043326324.5154,
-      "birthtimeMs": 1553291963000,
-      "atime": "2019-10-14T08:55:32.421Z",
-      "mtime": "2019-03-22T21:59:23.000Z",
-      "ctime": "2019-10-14T08:55:26.325Z",
-      "birthtime": "2019-03-22T21:59:23.000Z"
-    },
-    "3dbcd9a6-c67f-56fe-9cf8-3742ad7df334": {
-      "id": "3dbcd9a6-c67f-56fe-9cf8-3742ad7df334",
-      "children": [
-        "96becb4c-0960-5244-8757-86bdaa63a4f2"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/gatsby-icon.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/zbyszrom/Desktop/travel-blog/src/images/gatsby-icon.png",
-      "relativePath": "gatsby-icon.png",
-      "extension": "png",
-      "size": 21212,
-      "prettySize": "21.2 kB",
-      "modifiedTime": "2019-03-19T21:36:47.000Z",
-      "accessTime": "2019-10-14T08:55:32.423Z",
-      "changeTime": "2019-10-14T08:55:26.326Z",
-      "birthTime": "2019-03-19T21:36:47.000Z",
-      "root": "/",
-      "dir": "/Users/zbyszrom/Desktop/travel-blog/src/images",
-      "base": "gatsby-icon.png",
-      "ext": ".png",
-      "name": "gatsby-icon",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12283233,
-      "blocks": 48,
-      "atimeMs": 1571043332422.6006,
-      "mtimeMs": 1553031407000,
-      "ctimeMs": 1571043326325.8696,
-      "birthtimeMs": 1553031407000,
-      "atime": "2019-10-14T08:55:32.423Z",
-      "mtime": "2019-03-19T21:36:47.000Z",
-      "ctime": "2019-10-14T08:55:26.326Z",
-      "birthtime": "2019-03-19T21:36:47.000Z"
-    },
-    "9af13a01-19d7-5dd6-b80a-abb04d5b1580": {
-      "id": "9af13a01-19d7-5dd6-b80a-abb04d5b1580",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "daa61ea6c3576903b03d02a7bc7ec90e",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/quote.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/zbyszrom/Desktop/travel-blog/src/images/quote.svg",
-      "relativePath": "quote.svg",
-      "extension": "svg",
-      "size": 629,
-      "prettySize": "629 B",
-      "modifiedTime": "2019-03-20T23:39:35.000Z",
-      "accessTime": "2019-10-14T08:55:32.422Z",
-      "changeTime": "2019-10-14T08:55:26.327Z",
-      "birthTime": "2019-03-20T23:39:35.000Z",
-      "root": "/",
-      "dir": "/Users/zbyszrom/Desktop/travel-blog/src/images",
-      "base": "quote.svg",
-      "ext": ".svg",
-      "name": "quote",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12283234,
-      "blocks": 8,
-      "atimeMs": 1571043332422.383,
-      "mtimeMs": 1553125175000,
-      "ctimeMs": 1571043326327.2395,
-      "birthtimeMs": 1553125175000,
-      "atime": "2019-10-14T08:55:32.422Z",
-      "mtime": "2019-03-20T23:39:35.000Z",
-      "ctime": "2019-10-14T08:55:26.327Z",
-      "birthtime": "2019-03-20T23:39:35.000Z"
-    },
-    "6a81338b-27c1-5a32-b807-651cf7426d6d": {
-      "id": "6a81338b-27c1-5a32-b807-651cf7426d6d",
-      "children": [
-        "51ea4298-a89a-5f9f-8f0c-a3319df362a8"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "949c7e63908216492c2e5e4bbc15423d",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/general-header-image.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/zbyszrom/Desktop/travel-blog/src/images/general-header-image.jpg",
-      "relativePath": "general-header-image.jpg",
-      "extension": "jpg",
-      "size": 62584,
-      "prettySize": "62.6 kB",
-      "modifiedTime": "2019-03-21T23:02:33.000Z",
-      "accessTime": "2019-10-14T08:55:32.424Z",
-      "changeTime": "2019-10-14T08:55:26.329Z",
-      "birthTime": "2019-03-21T23:02:33.000Z",
-      "root": "/",
-      "dir": "/Users/zbyszrom/Desktop/travel-blog/src/images",
-      "base": "general-header-image.jpg",
-      "ext": ".jpg",
-      "name": "general-header-image",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12283235,
-      "blocks": 128,
-      "atimeMs": 1571043332423.8604,
-      "mtimeMs": 1553209353000,
-      "ctimeMs": 1571043326328.6309,
-      "birthtimeMs": 1553209353000,
-      "atime": "2019-10-14T08:55:32.424Z",
-      "mtime": "2019-03-21T23:02:33.000Z",
-      "ctime": "2019-10-14T08:55:26.329Z",
-      "birthtime": "2019-03-21T23:02:33.000Z"
-    },
-    "ae60c2c5-37aa-5e7b-84df-dffe576a713d": {
-      "id": "ae60c2c5-37aa-5e7b-84df-dffe576a713d",
-      "children": [],
-      "parent": "e09a7144-5683-5b48-a6ce-a8a2d7fed4e1",
-      "internal": {
-        "contentDigest": "4d2d86260115cb8f6d9d06951f0c6f62",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "96becb4c-0960-5244-8757-86bdaa63a4f2": {
-      "id": "96becb4c-0960-5244-8757-86bdaa63a4f2",
-      "children": [],
-      "parent": "3dbcd9a6-c67f-56fe-9cf8-3742ad7df334",
-      "internal": {
-        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "51ea4298-a89a-5f9f-8f0c-a3319df362a8": {
-      "id": "51ea4298-a89a-5f9f-8f0c-a3319df362a8",
-      "children": [],
-      "parent": "6a81338b-27c1-5a32-b807-651cf7426d6d",
-      "internal": {
-        "contentDigest": "949c7e63908216492c2e5e4bbc15423d",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "c3829932-7047-5350-bba4-3cbecf66c411": {
-      "id": "c3829932-7047-5350-bba4-3cbecf66c411",
-      "children": [
-        "5aa3364f-517f-5812-bac0-cef1e8ebd46f"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "bd5ba555101fe1d764b720abb5314f4b",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/general-footer-image.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/zbyszrom/Desktop/travel-blog/src/images/general-footer-image.jpg",
-      "relativePath": "general-footer-image.jpg",
-      "extension": "jpg",
-      "size": 154537,
-      "prettySize": "155 kB",
-      "modifiedTime": "2019-03-20T21:49:02.000Z",
-      "accessTime": "2019-10-14T08:55:32.420Z",
-      "changeTime": "2019-10-14T08:55:26.322Z",
-      "birthTime": "2019-03-20T21:49:02.000Z",
-      "root": "/",
-      "dir": "/Users/zbyszrom/Desktop/travel-blog/src/images",
-      "base": "general-footer-image.jpg",
-      "ext": ".jpg",
-      "name": "general-footer-image",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12283230,
-      "blocks": 304,
-      "atimeMs": 1571043332420.4448,
-      "mtimeMs": 1553118542000,
-      "ctimeMs": 1571043326321.6677,
-      "birthtimeMs": 1553118542000,
-      "atime": "2019-10-14T08:55:32.420Z",
-      "mtime": "2019-03-20T21:49:02.000Z",
-      "ctime": "2019-10-14T08:55:26.322Z",
-      "birthtime": "2019-03-20T21:49:02.000Z"
-    },
-    "5aa3364f-517f-5812-bac0-cef1e8ebd46f": {
-      "id": "5aa3364f-517f-5812-bac0-cef1e8ebd46f",
-      "children": [],
-      "parent": "c3829932-7047-5350-bba4-3cbecf66c411",
-      "internal": {
-        "contentDigest": "bd5ba555101fe1d764b720abb5314f4b",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "847d61b9-bc42-5140-8614-0c58021288eb": {
-      "id": "847d61b9-bc42-5140-8614-0c58021288eb",
-      "children": [
-        "7ed8029d-5b82-5e63-a23f-c1c351507d8c"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/gatsby-astronaut.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/zbyszrom/Desktop/travel-blog/src/images/gatsby-astronaut.png",
-      "relativePath": "gatsby-astronaut.png",
-      "extension": "png",
-      "size": 167273,
-      "prettySize": "167 kB",
-      "modifiedTime": "2019-03-19T21:36:47.000Z",
-      "accessTime": "2019-10-14T08:55:32.420Z",
-      "changeTime": "2019-10-14T08:55:26.323Z",
-      "birthTime": "2019-03-19T21:36:47.000Z",
-      "root": "/",
-      "dir": "/Users/zbyszrom/Desktop/travel-blog/src/images",
-      "base": "gatsby-astronaut.png",
-      "ext": ".png",
-      "name": "gatsby-astronaut",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12283231,
-      "blocks": 328,
-      "atimeMs": 1571043332420.303,
-      "mtimeMs": 1553031407000,
-      "ctimeMs": 1571043326323.1523,
-      "birthtimeMs": 1553031407000,
-      "atime": "2019-10-14T08:55:32.420Z",
-      "mtime": "2019-03-19T21:36:47.000Z",
-      "ctime": "2019-10-14T08:55:26.323Z",
-      "birthtime": "2019-03-19T21:36:47.000Z"
-    },
-    "7ed8029d-5b82-5e63-a23f-c1c351507d8c": {
-      "id": "7ed8029d-5b82-5e63-a23f-c1c351507d8c",
-      "children": [],
-      "parent": "847d61b9-bc42-5140-8614-0c58021288eb",
-      "internal": {
-        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "c3d8fd2c-e213-50e4-9150-00b7ab8b3430": {
-      "resolve": "/Users/zbyszrom/Desktop/travel-blog/node_modules/gatsby-source-contentful",
-      "id": "c3d8fd2c-e213-50e4-9150-00b7ab8b3430",
-      "name": "gatsby-source-contentful",
-      "version": "2.0.40",
-      "pluginOptions": {
-        "plugins": [],
-        "spaceId": "exb1xk3aq7pb",
-        "accessToken": "bvOsa2U8q071deU7FEphF3e7-A8ej4V0b9cn3PzS9E4",
-        "host": "cdn.contentful.com",
-        "environment": "master"
-      },
-      "nodeAPIs": [
-        "setFieldsOnGraphQLNodeType",
-        "sourceNodes",
-        "onPreExtractQueries"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/zbyszrom/Desktop/travel-blog/node_modules/gatsby-source-contentful",
-      "packageJson": {
-        "name": "gatsby-source-contentful",
-        "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
-        "version": "2.0.40",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "gatsby-source-plugin"
-        ],
-        "author": {
-          "name": "Marcus Ericsson",
-          "email": "mericsson@gmail.com",
-          "url": "mericsson.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "axios",
-            "version": "^0.18.0"
-          },
-          {
-            "name": "base64-img",
-            "version": "^1.0.3"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "contentful",
-            "version": "^6.1.0"
-          },
-          {
-            "name": "deep-map",
-            "version": "^1.5.0"
-          },
-          {
-            "name": "fs-extra",
-            "version": "^4.0.2"
-          },
-          {
-            "name": "gatsby-plugin-sharp",
-            "version": "^2.0.29"
-          },
-          {
-            "name": "gatsby-source-filesystem",
-            "version": "^2.0.27"
-          },
-          {
-            "name": "is-online",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "json-stringify-safe",
-            "version": "^5.0.1"
-          },
-          {
-            "name": "lodash",
-            "version": "^4.17.10"
-          },
-          {
-            "name": "qs",
-            "version": "^6.4.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.4"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^2.0.33"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": null,
-      "children": [],
-      "internal": {
-        "contentDigest": "ca10d079e653eebcf6ee3c3332ddb97a",
-        "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
@@ -3359,6 +2948,425 @@
       "excerpt": "",
       "rawMarkdownBody": "Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. Praesent in nunc sit amet orci dignissim mollis. Pellentesque elementum lacinia urna, sit amet scelerisque libero blandit vel. Aliquam erat volutpat. Praesent vel nunc orci. Suspendisse quis mauris sed ipsum lobortis semper id nec diam. Donec a porta nibh. Vivamus nibh metus, facilisis ut maximus eget, lobortis at erat. Nulla luctus nec eros ac vehicula. Nullam scelerisque laoreet lorem a sodales.\n\nNunc ipsum orci, consectetur in euismod id, adipiscing nec libero. Vivamus sed nisi quam. Donec id arcu non libero pellentesque condimentum at in mauris. Duis et lacus lectus, eu aliquet tortor. Maecenas cursus consectetur tellus non lobortis. Donec sed arcu a justo cursus varius ut et diam. Suspendisse lobortis pulvinar velit, id convallis eros pulvinar ac. Cras a lorem lorem, et feugiat leo. Nunc vestibulum venenatis est nec tempor. Nunc mattis sem in mauris posuere aliquam.\n\n<img class=\"center\" src=\"//images.ctfassets.net/cau8n5qal8o5/6x11nSaCm9UJTpqe0uSx6/8326df8a1e874c4885319aa3c38bd598/blog-image-1.jpg\" alt=\"Girl at Lake\">\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. \n\nAenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\n> Praesent eu odio in velit maximus accumsan vitae id lectus. \n> \n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\n<img class=\"right\" src=\"//images.ctfassets.net/cau8n5qal8o5/136BvUcd0TA7xbOybUCrAJ/bb80209bfe66262882f0c622768bfb2d/blog-image-2.jpg\" alt=\"Mountains\">\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare.\n\nQuam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci."
     },
+    "379329aa-b44a-5c14-a89a-e97169db5667": {
+      "id": "379329aa-b44a-5c14-a89a-e97169db5667",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "546c93e00982cef7701d589bf4d38b25",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/zbyszrom/Desktop/travel-blog/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 288,
+      "prettySize": "288 B",
+      "modifiedTime": "2019-10-14T08:55:46.000Z",
+      "accessTime": "2019-10-14T08:55:46.000Z",
+      "changeTime": "2019-10-14T08:55:46.471Z",
+      "birthTime": "2019-03-22T21:59:23.000Z",
+      "root": "/",
+      "dir": "/Users/zbyszrom/Desktop/travel-blog/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 9,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12283228,
+      "blocks": 0,
+      "atimeMs": 1571043346000,
+      "mtimeMs": 1571043346000,
+      "ctimeMs": 1571043346470.8765,
+      "birthtimeMs": 1553291963000,
+      "atime": "2019-10-14T08:55:46.000Z",
+      "mtime": "2019-10-14T08:55:46.000Z",
+      "ctime": "2019-10-14T08:55:46.471Z",
+      "birthtime": "2019-03-22T21:59:23.000Z"
+    },
+    "e09a7144-5683-5b48-a6ce-a8a2d7fed4e1": {
+      "id": "e09a7144-5683-5b48-a6ce-a8a2d7fed4e1",
+      "children": [
+        "ae60c2c5-37aa-5e7b-84df-dffe576a713d"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4d2d86260115cb8f6d9d06951f0c6f62",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/favicon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/zbyszrom/Desktop/travel-blog/src/images/favicon.png",
+      "relativePath": "favicon.png",
+      "extension": "png",
+      "size": 31548,
+      "prettySize": "31.5 kB",
+      "modifiedTime": "2019-03-22T21:59:23.000Z",
+      "accessTime": "2019-10-14T22:58:58.456Z",
+      "changeTime": "2019-10-14T08:55:26.325Z",
+      "birthTime": "2019-03-22T21:59:23.000Z",
+      "root": "/",
+      "dir": "/Users/zbyszrom/Desktop/travel-blog/src/images",
+      "base": "favicon.png",
+      "ext": ".png",
+      "name": "favicon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12283232,
+      "blocks": 64,
+      "atimeMs": 1571093938455.9243,
+      "mtimeMs": 1553291963000,
+      "ctimeMs": 1571043326324.5154,
+      "birthtimeMs": 1553291963000,
+      "atime": "2019-10-14T22:58:58.456Z",
+      "mtime": "2019-03-22T21:59:23.000Z",
+      "ctime": "2019-10-14T08:55:26.325Z",
+      "birthtime": "2019-03-22T21:59:23.000Z"
+    },
+    "16280fae-bd8d-5730-a4e2-a1a168fe1124": {
+      "id": "16280fae-bd8d-5730-a4e2-a1a168fe1124",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d1f7059e9f2d34e59c1fd71d7168dde5",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/compass-logo.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/zbyszrom/Desktop/travel-blog/src/images/compass-logo.svg",
+      "relativePath": "compass-logo.svg",
+      "extension": "svg",
+      "size": 1375,
+      "prettySize": "1.38 kB",
+      "modifiedTime": "2019-03-19T22:32:46.000Z",
+      "accessTime": "2019-10-14T22:58:58.456Z",
+      "changeTime": "2019-10-14T08:55:26.320Z",
+      "birthTime": "2019-03-19T22:32:46.000Z",
+      "root": "/",
+      "dir": "/Users/zbyszrom/Desktop/travel-blog/src/images",
+      "base": "compass-logo.svg",
+      "ext": ".svg",
+      "name": "compass-logo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12283229,
+      "blocks": 8,
+      "atimeMs": 1571093938455.888,
+      "mtimeMs": 1553034766000,
+      "ctimeMs": 1571043326320.3354,
+      "birthtimeMs": 1553034766000,
+      "atime": "2019-10-14T22:58:58.456Z",
+      "mtime": "2019-03-19T22:32:46.000Z",
+      "ctime": "2019-10-14T08:55:26.320Z",
+      "birthtime": "2019-03-19T22:32:46.000Z"
+    },
+    "3dbcd9a6-c67f-56fe-9cf8-3742ad7df334": {
+      "id": "3dbcd9a6-c67f-56fe-9cf8-3742ad7df334",
+      "children": [
+        "96becb4c-0960-5244-8757-86bdaa63a4f2"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/zbyszrom/Desktop/travel-blog/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2019-03-19T21:36:47.000Z",
+      "accessTime": "2019-10-14T22:58:58.456Z",
+      "changeTime": "2019-10-14T08:55:26.326Z",
+      "birthTime": "2019-03-19T21:36:47.000Z",
+      "root": "/",
+      "dir": "/Users/zbyszrom/Desktop/travel-blog/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12283233,
+      "blocks": 48,
+      "atimeMs": 1571093938455.9805,
+      "mtimeMs": 1553031407000,
+      "ctimeMs": 1571043326325.8696,
+      "birthtimeMs": 1553031407000,
+      "atime": "2019-10-14T22:58:58.456Z",
+      "mtime": "2019-03-19T21:36:47.000Z",
+      "ctime": "2019-10-14T08:55:26.326Z",
+      "birthtime": "2019-03-19T21:36:47.000Z"
+    },
+    "ae60c2c5-37aa-5e7b-84df-dffe576a713d": {
+      "id": "ae60c2c5-37aa-5e7b-84df-dffe576a713d",
+      "children": [],
+      "parent": "e09a7144-5683-5b48-a6ce-a8a2d7fed4e1",
+      "internal": {
+        "contentDigest": "4d2d86260115cb8f6d9d06951f0c6f62",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "96becb4c-0960-5244-8757-86bdaa63a4f2": {
+      "id": "96becb4c-0960-5244-8757-86bdaa63a4f2",
+      "children": [],
+      "parent": "3dbcd9a6-c67f-56fe-9cf8-3742ad7df334",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "9af13a01-19d7-5dd6-b80a-abb04d5b1580": {
+      "id": "9af13a01-19d7-5dd6-b80a-abb04d5b1580",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "daa61ea6c3576903b03d02a7bc7ec90e",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/quote.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/zbyszrom/Desktop/travel-blog/src/images/quote.svg",
+      "relativePath": "quote.svg",
+      "extension": "svg",
+      "size": 629,
+      "prettySize": "629 B",
+      "modifiedTime": "2019-03-20T23:39:35.000Z",
+      "accessTime": "2019-10-14T22:58:58.456Z",
+      "changeTime": "2019-10-14T08:55:26.327Z",
+      "birthTime": "2019-03-20T23:39:35.000Z",
+      "root": "/",
+      "dir": "/Users/zbyszrom/Desktop/travel-blog/src/images",
+      "base": "quote.svg",
+      "ext": ".svg",
+      "name": "quote",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12283234,
+      "blocks": 8,
+      "atimeMs": 1571093938456.0625,
+      "mtimeMs": 1553125175000,
+      "ctimeMs": 1571043326327.2395,
+      "birthtimeMs": 1553125175000,
+      "atime": "2019-10-14T22:58:58.456Z",
+      "mtime": "2019-03-20T23:39:35.000Z",
+      "ctime": "2019-10-14T08:55:26.327Z",
+      "birthtime": "2019-03-20T23:39:35.000Z"
+    },
+    "6a81338b-27c1-5a32-b807-651cf7426d6d": {
+      "id": "6a81338b-27c1-5a32-b807-651cf7426d6d",
+      "children": [
+        "51ea4298-a89a-5f9f-8f0c-a3319df362a8"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "949c7e63908216492c2e5e4bbc15423d",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/general-header-image.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/zbyszrom/Desktop/travel-blog/src/images/general-header-image.jpg",
+      "relativePath": "general-header-image.jpg",
+      "extension": "jpg",
+      "size": 62584,
+      "prettySize": "62.6 kB",
+      "modifiedTime": "2019-03-21T23:02:33.000Z",
+      "accessTime": "2019-10-14T22:58:58.456Z",
+      "changeTime": "2019-10-14T08:55:26.329Z",
+      "birthTime": "2019-03-21T23:02:33.000Z",
+      "root": "/",
+      "dir": "/Users/zbyszrom/Desktop/travel-blog/src/images",
+      "base": "general-header-image.jpg",
+      "ext": ".jpg",
+      "name": "general-header-image",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12283235,
+      "blocks": 128,
+      "atimeMs": 1571093938456.0361,
+      "mtimeMs": 1553209353000,
+      "ctimeMs": 1571043326328.6309,
+      "birthtimeMs": 1553209353000,
+      "atime": "2019-10-14T22:58:58.456Z",
+      "mtime": "2019-03-21T23:02:33.000Z",
+      "ctime": "2019-10-14T08:55:26.329Z",
+      "birthtime": "2019-03-21T23:02:33.000Z"
+    },
+    "51ea4298-a89a-5f9f-8f0c-a3319df362a8": {
+      "id": "51ea4298-a89a-5f9f-8f0c-a3319df362a8",
+      "children": [],
+      "parent": "6a81338b-27c1-5a32-b807-651cf7426d6d",
+      "internal": {
+        "contentDigest": "949c7e63908216492c2e5e4bbc15423d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "c3829932-7047-5350-bba4-3cbecf66c411": {
+      "id": "c3829932-7047-5350-bba4-3cbecf66c411",
+      "children": [
+        "5aa3364f-517f-5812-bac0-cef1e8ebd46f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "bd5ba555101fe1d764b720abb5314f4b",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/general-footer-image.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/zbyszrom/Desktop/travel-blog/src/images/general-footer-image.jpg",
+      "relativePath": "general-footer-image.jpg",
+      "extension": "jpg",
+      "size": 154537,
+      "prettySize": "155 kB",
+      "modifiedTime": "2019-03-20T21:49:02.000Z",
+      "accessTime": "2019-10-14T22:58:58.456Z",
+      "changeTime": "2019-10-14T08:55:26.322Z",
+      "birthTime": "2019-03-20T21:49:02.000Z",
+      "root": "/",
+      "dir": "/Users/zbyszrom/Desktop/travel-blog/src/images",
+      "base": "general-footer-image.jpg",
+      "ext": ".jpg",
+      "name": "general-footer-image",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12283230,
+      "blocks": 304,
+      "atimeMs": 1571093938456.0068,
+      "mtimeMs": 1553118542000,
+      "ctimeMs": 1571043326321.6677,
+      "birthtimeMs": 1553118542000,
+      "atime": "2019-10-14T22:58:58.456Z",
+      "mtime": "2019-03-20T21:49:02.000Z",
+      "ctime": "2019-10-14T08:55:26.322Z",
+      "birthtime": "2019-03-20T21:49:02.000Z"
+    },
+    "5aa3364f-517f-5812-bac0-cef1e8ebd46f": {
+      "id": "5aa3364f-517f-5812-bac0-cef1e8ebd46f",
+      "children": [],
+      "parent": "c3829932-7047-5350-bba4-3cbecf66c411",
+      "internal": {
+        "contentDigest": "bd5ba555101fe1d764b720abb5314f4b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "847d61b9-bc42-5140-8614-0c58021288eb": {
+      "id": "847d61b9-bc42-5140-8614-0c58021288eb",
+      "children": [
+        "7ed8029d-5b82-5e63-a23f-c1c351507d8c"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-astronaut.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/zbyszrom/Desktop/travel-blog/src/images/gatsby-astronaut.png",
+      "relativePath": "gatsby-astronaut.png",
+      "extension": "png",
+      "size": 167273,
+      "prettySize": "167 kB",
+      "modifiedTime": "2019-03-19T21:36:47.000Z",
+      "accessTime": "2019-10-14T22:58:58.456Z",
+      "changeTime": "2019-10-14T08:55:26.323Z",
+      "birthTime": "2019-03-19T21:36:47.000Z",
+      "root": "/",
+      "dir": "/Users/zbyszrom/Desktop/travel-blog/src/images",
+      "base": "gatsby-astronaut.png",
+      "ext": ".png",
+      "name": "gatsby-astronaut",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12283231,
+      "blocks": 328,
+      "atimeMs": 1571093938455.951,
+      "mtimeMs": 1553031407000,
+      "ctimeMs": 1571043326323.1523,
+      "birthtimeMs": 1553031407000,
+      "atime": "2019-10-14T22:58:58.456Z",
+      "mtime": "2019-03-19T21:36:47.000Z",
+      "ctime": "2019-10-14T08:55:26.323Z",
+      "birthtime": "2019-03-19T21:36:47.000Z"
+    },
+    "7ed8029d-5b82-5e63-a23f-c1c351507d8c": {
+      "id": "7ed8029d-5b82-5e63-a23f-c1c351507d8c",
+      "children": [],
+      "parent": "847d61b9-bc42-5140-8614-0c58021288eb",
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "SitePage /blog/guide-to-iceland": {
       "jsonName": "blog-guide-to-iceland-1cb",
       "internalComponentName": "ComponentBlogGuideToIceland",
@@ -3900,7 +3908,7 @@
         "exb1xk3aq7pb-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybDscOIwozCpMOiwp7Ct8K4HsKtJMKGB8KKeAtOdDVRwpVPUsKaw6N6w7I-RMKfw6bDjcKIw4TDmB9NemPDocO2wrNAwolxwqfDjjwwHVc_wqTCpMOLVMOpB8K_VxfChUtL"
       }
     },
-    "PLUGINS_HASH": "dfb31f41e7b318ae10ae5c814f887794"
+    "PLUGINS_HASH": "4a9e4626f14ae31160a4addeb1e3454b"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -3915,111 +3923,111 @@
         "sq--src-components-image-js"
       ],
       "f43c7b20-5d67-59db-a70b-2088cc0da5da": [
-        "sq--src-components-home-index-js",
         "/blog",
         "/blog/2",
-        "/category/guide"
+        "/category/guide",
+        "sq--src-components-home-index-js"
       ],
       "c2f97791-6941-5573-a233-44d7464f577a": [
-        "sq--src-components-home-index-js",
         "/blog",
+        "/blog/guide-to-iceland",
         "/category/guide",
-        "/blog/guide-to-iceland"
+        "sq--src-components-home-index-js"
       ],
       "0b21ea95-614b-56d1-9d0d-6bdde0e42ba7": [
-        "sq--src-components-home-index-js",
         "/blog",
-        "/category/tech"
+        "/category/tech",
+        "sq--src-components-home-index-js"
       ],
       "5cfd4ef6-a404-582b-9836-5d630e119eec": [
-        "sq--src-components-home-index-js",
         "/blog",
+        "/blog/hands-on-review-nikon-z7",
         "/category/tech",
-        "/blog/hands-on-review-nikon-z7"
+        "sq--src-components-home-index-js"
       ],
       "70d5a73b-8117-54e8-8bf0-ae00f135b180": [
-        "sq--src-components-home-index-js",
         "/blog",
+        "/blog/biking-argentina-travel-guide",
         "/category/guide",
-        "/blog/biking-argentina-travel-guide"
+        "sq--src-components-home-index-js"
       ],
       "f3d0763f-8764-5f19-b6b2-f1f8b35066cb": [
-        "sq--src-components-home-index-js",
         "/blog",
         "/blog/2",
-        "/category/travel"
+        "/category/travel",
+        "sq--src-components-home-index-js"
       ],
       "3db295b6-2e3d-560b-9579-59f3267a732e": [
-        "sq--src-components-home-index-js",
         "/blog",
         "/blog/top-3-national-parks-usa",
-        "/category/travel"
+        "/category/travel",
+        "sq--src-components-home-index-js"
       ],
       "08664466-6b72-5b47-aa17-5adbceeea20a": [
-        "sq--src-components-home-index-js",
         "/blog",
+        "/blog/top-10-bed-and-breakfasts-midwest",
         "/category/guide",
-        "/blog/top-10-bed-and-breakfasts-midwest"
+        "sq--src-components-home-index-js"
       ],
       "ad705d48-1dd9-57c4-97a1-b13619a02035": [
-        "sq--src-components-home-index-js",
         "/blog",
-        "/category/opinion"
+        "/category/opinion",
+        "sq--src-components-home-index-js"
       ],
       "fb88b498-5785-5250-a83e-390e107def0d": [
-        "sq--src-components-home-index-js",
         "/blog",
+        "/category/opinion",
         "/blog/why-travel-after-college",
-        "/category/opinion"
+        "sq--src-components-home-index-js"
       ],
       "3306dd27-c3c2-5c17-9df7-60faa26e28f9": [
-        "sq--src-components-home-index-js",
         "/blog",
+        "/blog/hands-on-review-canon-mark-iv",
         "/category/tech",
-        "/blog/hands-on-review-canon-mark-iv"
+        "sq--src-components-home-index-js"
       ],
       "1a8d0db9-ea25-5a56-b733-98c641adafff": [
-        "sq--src-components-home-index-js",
         "/blog/2",
+        "/blog/guide-to-new-zealand",
         "/category/guide",
-        "/blog/guide-to-new-zealand"
+        "sq--src-components-home-index-js"
       ],
       "d1149136-36c0-5163-8a56-44b8015b85e8": [
-        "sq--src-components-home-index-js",
         "/blog/2",
         "/blog/lost-in-the-city-spain",
-        "/category/travel"
+        "/category/travel",
+        "sq--src-components-home-index-js"
       ],
       "4e64c2c8-aef5-5f02-817b-cf54f3e9e5ac": [
         "/blog",
-        "/blog/time-to-go",
-        "/category/opinion"
+        "/category/opinion",
+        "/blog/time-to-go"
       ],
       "b3545b9c-ce1b-5519-94a5-42720cf5b744": [
         "/blog",
-        "/category/guide",
-        "/blog/the-10-things-you-must-do-in-greenland"
+        "/blog/the-10-things-you-must-do-in-greenland",
+        "/category/guide"
       ],
       "4f68d8ab-8864-54ab-9120-d88db1a8452d": [
-        "sq--src-components-featured-index-js",
         "/blog/2",
         "/blog/top-10-tips-for-traveling-more",
-        "/category/travel"
+        "/category/travel",
+        "sq--src-components-featured-index-js"
       ],
       "a19b1560-88eb-567e-820d-7e7de449273c": [
+        "/blog/guide-to-iceland"
+      ],
+      "0a5622d4-bd8e-58ec-94a4-27d879bf236c": [
+        "/blog/guide-to-iceland"
+      ],
+      "d09e628d-6bf0-5814-9750-ffc346a2302b": [
         "/blog/guide-to-iceland"
       ],
       "7d2826ad-7a97-5558-9f76-61948acf017f": [
         "/blog/time-to-go"
       ],
-      "0a5622d4-bd8e-58ec-94a4-27d879bf236c": [
-        "/blog/guide-to-iceland"
-      ],
       "c3a1d3b5-c3fa-58d7-b8c1-3648341f4580": [
         "/blog/time-to-go"
-      ],
-      "d09e628d-6bf0-5814-9750-ffc346a2302b": [
-        "/blog/guide-to-iceland"
       ],
       "5fe3d2f3-4f4e-5440-8b77-1c6a9da0a2e8": [
         "/blog/time-to-go"
@@ -4117,14 +4125,14 @@
     },
     "connections": {
       "ContentfulBlog": [
-        "sq--src-components-home-index-js",
         "/blog",
-        "sq--src-components-featured-index-js",
         "/blog/2",
-        "/category/guide",
-        "/category/tech",
         "/category/opinion",
-        "/category/travel"
+        "/category/tech",
+        "/category/travel",
+        "/category/guide",
+        "sq--src-components-home-index-js",
+        "sq--src-components-featured-index-js"
       ]
     }
   },
@@ -4161,30 +4169,6 @@
     "category-travel-b5d": "589/path---category-travel-b-5-d-f8d-RUNgdzhjKna0rZoga9TwqHFzQg"
   },
   "components": {
-    "/Users/zbyszrom/Desktop/travel-blog/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/zbyszrom/Desktop/travel-blog/.cache/dev-404-page.js"
-    },
-    "/Users/zbyszrom/Desktop/travel-blog/src/pages/404.js": {
-      "query": "",
-      "componentPath": "/Users/zbyszrom/Desktop/travel-blog/src/pages/404.js"
-    },
-    "/Users/zbyszrom/Desktop/travel-blog/src/pages/contact.js": {
-      "query": "",
-      "componentPath": "/Users/zbyszrom/Desktop/travel-blog/src/pages/contact.js"
-    },
-    "/Users/zbyszrom/Desktop/travel-blog/src/pages/index.js": {
-      "query": "",
-      "componentPath": "/Users/zbyszrom/Desktop/travel-blog/src/pages/index.js"
-    },
-    "/Users/zbyszrom/Desktop/travel-blog/src/pages/page-2.js": {
-      "query": "",
-      "componentPath": "/Users/zbyszrom/Desktop/travel-blog/src/pages/page-2.js"
-    },
-    "/Users/zbyszrom/Desktop/travel-blog/src/pages/thanks.js": {
-      "query": "",
-      "componentPath": "/Users/zbyszrom/Desktop/travel-blog/src/pages/thanks.js"
-    },
     "/Users/zbyszrom/Desktop/travel-blog/src/templates/blog.js": {
       "query": "query BlogTemplate(\n  $id: String!\n) {\n  contentfulBlog(id: {eq: $id}) {\n    title\n    id\n    slug\n    content {\n      childMarkdownRemark {\n        html\n      }\n    }\n    seoTitle\n    seoDescription\n    seoAuthor\n    seoKeywords\n    seoImage {\n      fluid(maxWidth: 1200, quality: 100) {\n        ...GatsbyContentfulFluid\n        src\n      }\n    }\n    featuredImage {\n      fluid(maxWidth: 1200, quality: 100) {\n        ...GatsbyContentfulFluid\n        src\n      }\n    }\n  }\n}\n\nfragment GatsbyContentfulFluid on ContentfulFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "componentPath": "/Users/zbyszrom/Desktop/travel-blog/src/templates/blog.js"
@@ -4208,6 +4192,30 @@
     "/Users/zbyszrom/Desktop/travel-blog/src/templates/tech.js": {
       "query": "query TechQuery(\n  $skip: Int!\n  $limit: Int!\n) {\n  allContentfulBlog(sort: {fields: [createdAt], order: DESC}, filter: {node_locale: {eq: \"en-US\"}, categories: {elemMatch: {category: {eq: \"Tech\"}}}}, skip: $skip, limit: $limit) {\n    edges {\n      node {\n        id\n        slug\n        title\n        createdAt\n        categories {\n          category\n          id\n        }\n        featuredImage {\n          fluid(maxWidth: 1200, quality: 85) {\n            src\n            ...GatsbyContentfulFluid\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyContentfulFluid on ContentfulFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "componentPath": "/Users/zbyszrom/Desktop/travel-blog/src/templates/tech.js"
+    },
+    "/Users/zbyszrom/Desktop/travel-blog/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/zbyszrom/Desktop/travel-blog/.cache/dev-404-page.js"
+    },
+    "/Users/zbyszrom/Desktop/travel-blog/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/zbyszrom/Desktop/travel-blog/src/pages/404.js"
+    },
+    "/Users/zbyszrom/Desktop/travel-blog/src/pages/contact.js": {
+      "query": "",
+      "componentPath": "/Users/zbyszrom/Desktop/travel-blog/src/pages/contact.js"
+    },
+    "/Users/zbyszrom/Desktop/travel-blog/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/zbyszrom/Desktop/travel-blog/src/pages/index.js"
+    },
+    "/Users/zbyszrom/Desktop/travel-blog/src/pages/page-2.js": {
+      "query": "",
+      "componentPath": "/Users/zbyszrom/Desktop/travel-blog/src/pages/page-2.js"
+    },
+    "/Users/zbyszrom/Desktop/travel-blog/src/pages/thanks.js": {
+      "query": "",
+      "componentPath": "/Users/zbyszrom/Desktop/travel-blog/src/pages/thanks.js"
     }
   },
   "staticQueryComponents": {
@@ -4218,14 +4226,6 @@
       "jsonName": "sq--src-components-image-js",
       "query": "query usersZbyszromDesktopTravelBlogSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 2011440971
-    },
-    "sq--src-components-layout-js": {
-      "name": "SiteTitleQuery",
-      "componentPath": "/Users/zbyszrom/Desktop/travel-blog/src/components/layout.js",
-      "id": "sq--src-components-layout-js",
-      "jsonName": "sq--src-components-layout-js",
-      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
-      "hash": 755544856
     },
     "sq--src-components-home-index-js": {
       "name": "HomeQuery",
@@ -4242,6 +4242,14 @@
       "jsonName": "sq--src-components-seo-js",
       "query": "query usersZbyszromDesktopTravelBlogSrcComponentsSeoJs2417117884 {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
       "hash": 2417117884
+    },
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/zbyszrom/Desktop/travel-blog/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
     },
     "sq--src-components-featured-index-js": {
       "name": "FeaturedQuery",
