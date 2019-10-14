@@ -1,0 +1,127 @@
+[
+    {
+        "componentChunkName": "component---src-pages-index-js",
+        "jsonName": "index",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-html-516",
+        "path": "/404.html"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-22d",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-templates-archive-js",
+        "jsonName": "blog-c06",
+        "path": "/blog"
+    },
+    {
+        "componentChunkName": "component---src-templates-archive-js",
+        "jsonName": "blog-2-353",
+        "path": "/blog/2"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "blog-biking-argentina-travel-guide-27b",
+        "path": "/blog/biking-argentina-travel-guide"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "blog-guide-to-iceland-1cb",
+        "path": "/blog/guide-to-iceland"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "blog-guide-to-new-zealand-357",
+        "path": "/blog/guide-to-new-zealand"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "blog-hands-on-review-canon-mark-iv-8b9",
+        "path": "/blog/hands-on-review-canon-mark-iv"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "blog-hands-on-review-nikon-z-7-04e",
+        "path": "/blog/hands-on-review-nikon-z7"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "blog-lost-in-the-city-spain-2be",
+        "path": "/blog/lost-in-the-city-spain"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "blog-the-10-things-you-must-do-in-greenland-db8",
+        "path": "/blog/the-10-things-you-must-do-in-greenland"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "blog-time-to-go-caa",
+        "path": "/blog/time-to-go"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "blog-top-10-bed-and-breakfasts-midwest-c13",
+        "path": "/blog/top-10-bed-and-breakfasts-midwest"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "blog-top-10-tips-for-traveling-more-c60",
+        "path": "/blog/top-10-tips-for-traveling-more"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "blog-top-3-national-parks-usa-675",
+        "path": "/blog/top-3-national-parks-usa"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "blog-why-travel-after-college-710",
+        "path": "/blog/why-travel-after-college"
+    },
+    {
+        "componentChunkName": "component---src-templates-guide-js",
+        "jsonName": "category-guide-32c",
+        "path": "/category/guide"
+    },
+    {
+        "componentChunkName": "component---src-templates-opinion-js",
+        "jsonName": "category-opinion-926",
+        "path": "/category/opinion"
+    },
+    {
+        "componentChunkName": "component---src-templates-tech-js",
+        "jsonName": "category-tech-58c",
+        "path": "/category/tech"
+    },
+    {
+        "componentChunkName": "component---src-templates-travel-js",
+        "jsonName": "category-travel-b5d",
+        "path": "/category/travel"
+    },
+    {
+        "componentChunkName": "component---src-pages-contact-js",
+        "jsonName": "contact-26a",
+        "path": "/contact/"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-page-2-js",
+        "jsonName": "page-2-fbc",
+        "path": "/page-2/"
+    },
+    {
+        "componentChunkName": "component---src-pages-thanks-js",
+        "jsonName": "thanks-e0e",
+        "path": "/thanks/"
+    }
+]

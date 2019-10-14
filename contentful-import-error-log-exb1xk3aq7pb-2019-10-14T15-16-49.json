@@ -1,0 +1,2617 @@
+[
+  {
+    "ts": "2019-10-14T13:16:04.443Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "cau8n5qal8o5"
+            }
+          },
+          "id": "category",
+          "type": "ContentType",
+          "createdAt": "2019-02-18T13:29:45.158Z",
+          "updatedAt": "2019-02-27T02:55:49.253Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 9,
+          "publishedAt": "2019-02-27T02:55:49.253Z",
+          "firstPublishedAt": "2019-02-18T13:29:45.383Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "1MAaxBaGYJoyhr9BZBL3f8"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "1MAaxBaGYJoyhr9BZBL3f8"
+            }
+          },
+          "publishedCounter": 5,
+          "version": 10,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "1MAaxBaGYJoyhr9BZBL3f8"
+            }
+          }
+        },
+        "displayField": "category",
+        "name": "Category",
+        "description": "",
+        "fields": [
+          {
+            "id": "category",
+            "name": "Category",
+            "type": "Symbol",
+            "localized": false,
+            "required": true,
+            "validations": [
+              {
+                "unique": true
+              }
+            ],
+            "disabled": false,
+            "omitted": false
+          },
+          {
+            "id": "slug",
+            "name": "Slug",
+            "type": "Symbol",
+            "localized": false,
+            "required": true,
+            "validations": [
+              {
+                "unique": true
+              }
+            ],
+            "disabled": false,
+            "omitted": false
+          }
+        ]
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "You need to omit a field before deleting it",
+        "details": {
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/exb1xk3aq7pb/environments/master/content_types/category",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.1.1; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/19.0.0;",
+            "Authorization": "Bearer ...q_3rM",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 2,
+            "Content-Length": 367
+          },
+          "method": "put",
+          "payloadData": "{\"displayField\":\"category\",\"name\":\"Category\",\"description\":\"\",\"fields\":[{\"id\":\"category\",\"name\":\"Category\",\"type\":\"Symbol\",\"localized\":false,\"required\":true,\"validations\":[{\"unique\":true}],\"disabled\":false,\"omitted\":false},{\"id\":\"slug\",\"name\":\"Slug\",\"type\":\"Symbol\",\"localized\":false,\"required\":true,\"validations\":[{\"unique\":true}],\"disabled\":false,\"omitted\":false}]}"
+        },
+        "requestId": "69bedca59b58c698f83d200896488946"
+      }
+    }
+  },
+  {
+    "ts": "2019-10-14T13:16:33.929Z",
+    "level": "error",
+    "error": {
+      "name": "UnknownField",
+      "entity": {
+        "original": {
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "cau8n5qal8o5"
+              }
+            },
+            "id": "7nFaaiXYOe3IC6whiWNa3I",
+            "type": "Entry",
+            "createdAt": "2019-02-18T13:31:32.850Z",
+            "updatedAt": "2019-02-28T01:29:05.102Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 10,
+            "publishedAt": "2019-02-28T01:29:05.102Z",
+            "firstPublishedAt": "2019-02-28T01:29:05.102Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "publishedCounter": 1,
+            "version": 11,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "category"
+              }
+            }
+          },
+          "fields": {
+            "category": {
+              "en-US": "Guide"
+            },
+            "slug": {
+              "en-US": "travel-guides"
+            }
+          }
+        },
+        "transformed": {
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "cau8n5qal8o5"
+              }
+            },
+            "id": "7nFaaiXYOe3IC6whiWNa3I",
+            "type": "Entry",
+            "createdAt": "2019-02-18T13:31:32.850Z",
+            "updatedAt": "2019-02-28T01:29:05.102Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 10,
+            "publishedAt": "2019-02-28T01:29:05.102Z",
+            "firstPublishedAt": "2019-02-28T01:29:05.102Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "publishedCounter": 1,
+            "version": 11,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "category"
+              }
+            }
+          },
+          "fields": {
+            "category": {
+              "en-US": "Guide"
+            },
+            "slug": {
+              "en-US": "travel-guides"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "No field with id \"category\" found.",
+        "details": {
+          "errors": [
+            {
+              "name": "unknown",
+              "path": [
+                "fields",
+                "category"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/exb1xk3aq7pb/environments/master/entries/7nFaaiXYOe3IC6whiWNa3I",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.1.1; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/19.0.0;",
+            "Authorization": "Bearer ...q_3rM",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Content-Type": "category",
+            "Content-Length": 74
+          },
+          "method": "put",
+          "payloadData": "{\"fields\":{\"category\":{\"en-US\":\"Guide\"},\"slug\":{\"en-US\":\"travel-guides\"}}}"
+        },
+        "requestId": "cb772c9513a1b01ac06f12907e4eb79b"
+      }
+    }
+  },
+  {
+    "ts": "2019-10-14T13:16:33.940Z",
+    "level": "error",
+    "error": {
+      "name": "UnknownField",
+      "entity": {
+        "original": {
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "cau8n5qal8o5"
+              }
+            },
+            "id": "2PmLH6avA3z9fApgNY9m8R",
+            "type": "Entry",
+            "createdAt": "2019-02-28T01:29:12.418Z",
+            "updatedAt": "2019-02-28T01:29:20.585Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2019-02-28T01:29:20.585Z",
+            "firstPublishedAt": "2019-02-28T01:29:20.585Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "publishedCounter": 1,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "category"
+              }
+            }
+          },
+          "fields": {
+            "category": {
+              "en-US": "Tech"
+            },
+            "slug": {
+              "en-US": "travel-tech"
+            }
+          }
+        },
+        "transformed": {
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "cau8n5qal8o5"
+              }
+            },
+            "id": "2PmLH6avA3z9fApgNY9m8R",
+            "type": "Entry",
+            "createdAt": "2019-02-28T01:29:12.418Z",
+            "updatedAt": "2019-02-28T01:29:20.585Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 7,
+            "publishedAt": "2019-02-28T01:29:20.585Z",
+            "firstPublishedAt": "2019-02-28T01:29:20.585Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "publishedCounter": 1,
+            "version": 8,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "category"
+              }
+            }
+          },
+          "fields": {
+            "category": {
+              "en-US": "Tech"
+            },
+            "slug": {
+              "en-US": "travel-tech"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "No field with id \"category\" found.",
+        "details": {
+          "errors": [
+            {
+              "name": "unknown",
+              "path": [
+                "fields",
+                "category"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/exb1xk3aq7pb/environments/master/entries/2PmLH6avA3z9fApgNY9m8R",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.1.1; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/19.0.0;",
+            "Authorization": "Bearer ...q_3rM",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Content-Type": "category",
+            "Content-Length": 71
+          },
+          "method": "put",
+          "payloadData": "{\"fields\":{\"category\":{\"en-US\":\"Tech\"},\"slug\":{\"en-US\":\"travel-tech\"}}}"
+        },
+        "requestId": "29b7d9ae30d23012ef4f958dfd78e606"
+      }
+    }
+  },
+  {
+    "ts": "2019-10-14T13:16:33.943Z",
+    "level": "error",
+    "error": {
+      "name": "UnknownField",
+      "entity": {
+        "original": {
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "cau8n5qal8o5"
+              }
+            },
+            "id": "2zSxn3cIQeseANM29L2iBU",
+            "type": "Entry",
+            "createdAt": "2019-02-28T01:29:30.640Z",
+            "updatedAt": "2019-02-28T01:29:43.998Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 5,
+            "publishedAt": "2019-02-28T01:29:43.998Z",
+            "firstPublishedAt": "2019-02-28T01:29:43.998Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "publishedCounter": 1,
+            "version": 6,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "category"
+              }
+            }
+          },
+          "fields": {
+            "category": {
+              "en-US": "Opinion"
+            },
+            "slug": {
+              "en-US": "opinion"
+            }
+          }
+        },
+        "transformed": {
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "cau8n5qal8o5"
+              }
+            },
+            "id": "2zSxn3cIQeseANM29L2iBU",
+            "type": "Entry",
+            "createdAt": "2019-02-28T01:29:30.640Z",
+            "updatedAt": "2019-02-28T01:29:43.998Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 5,
+            "publishedAt": "2019-02-28T01:29:43.998Z",
+            "firstPublishedAt": "2019-02-28T01:29:43.998Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "publishedCounter": 1,
+            "version": 6,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "category"
+              }
+            }
+          },
+          "fields": {
+            "category": {
+              "en-US": "Opinion"
+            },
+            "slug": {
+              "en-US": "opinion"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "No field with id \"category\" found.",
+        "details": {
+          "errors": [
+            {
+              "name": "unknown",
+              "path": [
+                "fields",
+                "category"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/exb1xk3aq7pb/environments/master/entries/2zSxn3cIQeseANM29L2iBU",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.1.1; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/19.0.0;",
+            "Authorization": "Bearer ...q_3rM",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Content-Type": "category",
+            "Content-Length": 70
+          },
+          "method": "put",
+          "payloadData": "{\"fields\":{\"category\":{\"en-US\":\"Opinion\"},\"slug\":{\"en-US\":\"opinion\"}}}"
+        },
+        "requestId": "bccb47fdc1a13a79e7b19e9b8db354c8"
+      }
+    }
+  },
+  {
+    "ts": "2019-10-14T13:16:34.092Z",
+    "level": "error",
+    "error": {
+      "name": "UnknownField",
+      "entity": {
+        "original": {
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "cau8n5qal8o5"
+              }
+            },
+            "id": "7DJtwNhmRjGV6RxxPf0qfV",
+            "type": "Entry",
+            "createdAt": "2019-02-28T01:28:43.815Z",
+            "updatedAt": "2019-02-28T01:28:51.990Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 4,
+            "publishedAt": "2019-02-28T01:28:51.990Z",
+            "firstPublishedAt": "2019-02-28T01:28:51.990Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "publishedCounter": 1,
+            "version": 5,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "category"
+              }
+            }
+          },
+          "fields": {
+            "category": {
+              "en-US": "Travel"
+            },
+            "slug": {
+              "en-US": "travel"
+            }
+          }
+        },
+        "transformed": {
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "cau8n5qal8o5"
+              }
+            },
+            "id": "7DJtwNhmRjGV6RxxPf0qfV",
+            "type": "Entry",
+            "createdAt": "2019-02-28T01:28:43.815Z",
+            "updatedAt": "2019-02-28T01:28:51.990Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "publishedVersion": 4,
+            "publishedAt": "2019-02-28T01:28:51.990Z",
+            "firstPublishedAt": "2019-02-28T01:28:51.990Z",
+            "createdBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "updatedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "publishedCounter": 1,
+            "version": 5,
+            "publishedBy": {
+              "sys": {
+                "type": "Link",
+                "linkType": "User",
+                "id": "1MAaxBaGYJoyhr9BZBL3f8"
+              }
+            },
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "category"
+              }
+            }
+          },
+          "fields": {
+            "category": {
+              "en-US": "Travel"
+            },
+            "slug": {
+              "en-US": "travel"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "No field with id \"category\" found.",
+        "details": {
+          "errors": [
+            {
+              "name": "unknown",
+              "path": [
+                "fields",
+                "category"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/exb1xk3aq7pb/environments/master/entries/7DJtwNhmRjGV6RxxPf0qfV",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.1.1; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/19.0.0;",
+            "Authorization": "Bearer ...q_3rM",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Content-Type": "category",
+            "Content-Length": 68
+          },
+          "method": "put",
+          "payloadData": "{\"fields\":{\"category\":{\"en-US\":\"Travel\"},\"slug\":{\"en-US\":\"travel\"}}}"
+        },
+        "requestId": "ad6aeb3a240a0fecfbab559b565326dc"
+      }
+    }
+  },
+  {
+    "ts": "2019-10-14T13:16:37.214Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "exb1xk3aq7pb"
+            }
+          },
+          "id": "1e8fCE1wHev1jFmtUdl0oI",
+          "type": "Entry",
+          "createdAt": "2019-10-14T13:16:35.491Z",
+          "updatedAt": "2019-10-14T13:16:35.491Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "content"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "A Guide to Iceland"
+          },
+          "featuredImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "1XhOUPC6E5Jsb5tOkINg5H"
+              }
+            }
+          },
+          "categories": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "7nFaaiXYOe3IC6whiWNa3I"
+                }
+              }
+            ]
+          },
+          "slug": {
+            "en-US": "guide-to-iceland"
+          },
+          "shortDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "home": {
+            "en-US": true
+          },
+          "content": {
+            "en-US": "Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. Praesent in nunc sit amet orci dignissim mollis. Pellentesque elementum lacinia urna, sit amet scelerisque libero blandit vel. Aliquam erat volutpat. Praesent vel nunc orci. Suspendisse quis mauris sed ipsum lobortis semper id nec diam. Donec a porta nibh. Vivamus nibh metus, facilisis ut maximus eget, lobortis at erat. Nulla luctus nec eros ac vehicula. Nullam scelerisque laoreet lorem a sodales.\n\nNunc ipsum orci, consectetur in euismod id, adipiscing nec libero. Vivamus sed nisi quam. Donec id arcu non libero pellentesque condimentum at in mauris. Duis et lacus lectus, eu aliquet tortor. Maecenas cursus consectetur tellus non lobortis. Donec sed arcu a justo cursus varius ut et diam. Suspendisse lobortis pulvinar velit, id convallis eros pulvinar ac. Cras a lorem lorem, et feugiat leo. Nunc vestibulum venenatis est nec tempor. Nunc mattis sem in mauris posuere aliquam.\n\n<img class=\"center\" src=\"//images.ctfassets.net/cau8n5qal8o5/6x11nSaCm9UJTpqe0uSx6/8326df8a1e874c4885319aa3c38bd598/blog-image-1.jpg\" alt=\"Girl at Lake\">\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. \n\nAenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\n> Praesent eu odio in velit maximus accumsan vitae id lectus. \n> \n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\n<img class=\"right\" src=\"//images.ctfassets.net/cau8n5qal8o5/136BvUcd0TA7xbOybUCrAJ/bb80209bfe66262882f0c622768bfb2d/blog-image-2.jpg\" alt=\"Mountains\">\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare.\n\nQuam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci."
+          },
+          "seoTitle": {
+            "en-US": "A Guide to Iceland"
+          },
+          "seoDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "seoImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "1XhOUPC6E5Jsb5tOkINg5H"
+              }
+            }
+          },
+          "seoAuthor": {
+            "en-US": "Hunter Becton"
+          },
+          "seoKeywords": {
+            "en-US": [
+              "travel",
+              "travel guide",
+              "travel blog",
+              "iceland"
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7nFaaiXYOe3IC6whiWNa3I"
+              },
+              "path": [
+                "fields",
+                "categories",
+                "en-US",
+                0
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/exb1xk3aq7pb/environments/master/entries/1e8fCE1wHev1jFmtUdl0oI/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.1.1; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/19.0.0;",
+            "Authorization": "Bearer ...q_3rM",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "c20ac194993e7801a38bc0e164de2eb7"
+      }
+    }
+  },
+  {
+    "ts": "2019-10-14T13:16:37.716Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "exb1xk3aq7pb"
+            }
+          },
+          "id": "5TUL0shBZKwwLlDMldlr5E",
+          "type": "Entry",
+          "createdAt": "2019-10-14T13:16:35.734Z",
+          "updatedAt": "2019-10-14T13:16:35.734Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "content"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "Lost in the City is Where I Found Myself"
+          },
+          "featuredImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "tIxWnp4rbTw1ppOZOVjiT"
+              }
+            }
+          },
+          "categories": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "7DJtwNhmRjGV6RxxPf0qfV"
+                }
+              }
+            ]
+          },
+          "slug": {
+            "en-US": "lost-in-the-city-spain"
+          },
+          "shortDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "home": {
+            "en-US": true
+          },
+          "content": {
+            "en-US": "Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. Praesent in nunc sit amet orci dignissim mollis. Pellentesque elementum lacinia urna, sit amet scelerisque libero blandit vel. Aliquam erat volutpat. Praesent vel nunc orci. Suspendisse quis mauris sed ipsum lobortis semper id nec diam. Donec a porta nibh. Vivamus nibh metus, facilisis ut maximus eget, lobortis at erat. Nulla luctus nec eros ac vehicula. Nullam scelerisque laoreet lorem a sodales.\n\nNunc ipsum orci, consectetur in euismod id, adipiscing nec libero. Vivamus sed nisi quam. Donec id arcu non libero pellentesque condimentum at in mauris. Duis et lacus lectus, eu aliquet tortor. Maecenas cursus consectetur tellus non lobortis. Donec sed arcu a justo cursus varius ut et diam. Suspendisse lobortis pulvinar velit, id convallis eros pulvinar ac. Cras a lorem lorem, et feugiat leo. Nunc vestibulum venenatis est nec tempor. Nunc mattis sem in mauris posuere aliquam.\n\n<img class=\"center\" src=\"//images.ctfassets.net/cau8n5qal8o5/6x11nSaCm9UJTpqe0uSx6/8326df8a1e874c4885319aa3c38bd598/blog-image-1.jpg\" alt=\"Girl at Lake\">\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. \n\nAenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\n> Praesent eu odio in velit maximus accumsan vitae id lectus. \n> \n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\n<img class=\"right\" src=\"//images.ctfassets.net/cau8n5qal8o5/136BvUcd0TA7xbOybUCrAJ/bb80209bfe66262882f0c622768bfb2d/blog-image-2.jpg\" alt=\"Mountains\">\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare.\n\nQuam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci."
+          },
+          "seoTitle": {
+            "en-US": "Lost in the City is Where I Found Myself"
+          },
+          "seoDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "seoImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "tIxWnp4rbTw1ppOZOVjiT"
+              }
+            }
+          },
+          "seoAuthor": {
+            "en-US": "Hunter Becton"
+          },
+          "seoKeywords": {
+            "en-US": [
+              "travel",
+              "travel guide",
+              "travel blog",
+              "spain"
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7DJtwNhmRjGV6RxxPf0qfV"
+              },
+              "path": [
+                "fields",
+                "categories",
+                "en-US",
+                0
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/exb1xk3aq7pb/environments/master/entries/5TUL0shBZKwwLlDMldlr5E/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.1.1; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/19.0.0;",
+            "Authorization": "Bearer ...q_3rM",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "ae3944c63d77027e8984765f0352c34e"
+      }
+    }
+  },
+  {
+    "ts": "2019-10-14T13:16:38.331Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "exb1xk3aq7pb"
+            }
+          },
+          "id": "7i7Ndv1a8hYyVUAadURRN0",
+          "type": "Entry",
+          "createdAt": "2019-10-14T13:16:35.775Z",
+          "updatedAt": "2019-10-14T13:16:35.775Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "content"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "Top 10 Tips for Traveling More this Year"
+          },
+          "featuredImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "3GbITWg92gceHsl9HmSaAB"
+              }
+            }
+          },
+          "categories": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "7DJtwNhmRjGV6RxxPf0qfV"
+                }
+              }
+            ]
+          },
+          "slug": {
+            "en-US": "top-10-tips-for-traveling-more"
+          },
+          "shortDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "featured": {
+            "en-US": true
+          },
+          "content": {
+            "en-US": "Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. Praesent in nunc sit amet orci dignissim mollis. Pellentesque elementum lacinia urna, sit amet scelerisque libero blandit vel. Aliquam erat volutpat. Praesent vel nunc orci. Suspendisse quis mauris sed ipsum lobortis semper id nec diam. Donec a porta nibh. Vivamus nibh metus, facilisis ut maximus eget, lobortis at erat. Nulla luctus nec eros ac vehicula. Nullam scelerisque laoreet lorem a sodales.\n\nNunc ipsum orci, consectetur in euismod id, adipiscing nec libero. Vivamus sed nisi quam. Donec id arcu non libero pellentesque condimentum at in mauris. Duis et lacus lectus, eu aliquet tortor. Maecenas cursus consectetur tellus non lobortis. Donec sed arcu a justo cursus varius ut et diam. Suspendisse lobortis pulvinar velit, id convallis eros pulvinar ac. Cras a lorem lorem, et feugiat leo. Nunc vestibulum venenatis est nec tempor. Nunc mattis sem in mauris posuere aliquam.\n\n<img class=\"center\" src=\"//images.ctfassets.net/cau8n5qal8o5/6x11nSaCm9UJTpqe0uSx6/8326df8a1e874c4885319aa3c38bd598/blog-image-1.jpg\" alt=\"Girl at Lake\">\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. \n\nAenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\n> Praesent eu odio in velit maximus accumsan vitae id lectus. \n> \n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\n<img class=\"right\" src=\"//images.ctfassets.net/cau8n5qal8o5/136BvUcd0TA7xbOybUCrAJ/bb80209bfe66262882f0c622768bfb2d/blog-image-2.jpg\" alt=\"Mountains\">\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare.\n\nQuam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci."
+          },
+          "seoTitle": {
+            "en-US": "A Guide to New Zealand"
+          },
+          "seoDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "seoImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "3GbITWg92gceHsl9HmSaAB"
+              }
+            }
+          },
+          "seoAuthor": {
+            "en-US": "Hunter Becton"
+          },
+          "seoKeywords": {
+            "en-US": [
+              "travel",
+              "travel guide",
+              "travel blog"
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7DJtwNhmRjGV6RxxPf0qfV"
+              },
+              "path": [
+                "fields",
+                "categories",
+                "en-US",
+                0
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/exb1xk3aq7pb/environments/master/entries/7i7Ndv1a8hYyVUAadURRN0/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.1.1; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/19.0.0;",
+            "Authorization": "Bearer ...q_3rM",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "c33be1343eebd9374e6d8054df75f78c"
+      }
+    }
+  },
+  {
+    "ts": "2019-10-14T13:16:38.658Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "exb1xk3aq7pb"
+            }
+          },
+          "id": "6SMVezMbs66kI8IjEqgwL4",
+          "type": "Entry",
+          "createdAt": "2019-10-14T13:16:35.769Z",
+          "updatedAt": "2019-10-14T13:16:35.769Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "content"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "A Guide to New Zealand"
+          },
+          "featuredImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7Ifb3ABab88pXiC9W7i5Un"
+              }
+            }
+          },
+          "categories": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "7nFaaiXYOe3IC6whiWNa3I"
+                }
+              }
+            ]
+          },
+          "slug": {
+            "en-US": "guide-to-new-zealand"
+          },
+          "shortDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "home": {
+            "en-US": true
+          },
+          "content": {
+            "en-US": "Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. Praesent in nunc sit amet orci dignissim mollis. Pellentesque elementum lacinia urna, sit amet scelerisque libero blandit vel. Aliquam erat volutpat. Praesent vel nunc orci. Suspendisse quis mauris sed ipsum lobortis semper id nec diam. Donec a porta nibh. Vivamus nibh metus, facilisis ut maximus eget, lobortis at erat. Nulla luctus nec eros ac vehicula. Nullam scelerisque laoreet lorem a sodales.\n\nNunc ipsum orci, consectetur in euismod id, adipiscing nec libero. Vivamus sed nisi quam. Donec id arcu non libero pellentesque condimentum at in mauris. Duis et lacus lectus, eu aliquet tortor. Maecenas cursus consectetur tellus non lobortis. Donec sed arcu a justo cursus varius ut et diam. Suspendisse lobortis pulvinar velit, id convallis eros pulvinar ac. Cras a lorem lorem, et feugiat leo. Nunc vestibulum venenatis est nec tempor. Nunc mattis sem in mauris posuere aliquam.\n\n<img class=\"center\" src=\"//images.ctfassets.net/cau8n5qal8o5/6x11nSaCm9UJTpqe0uSx6/8326df8a1e874c4885319aa3c38bd598/blog-image-1.jpg\" alt=\"Girl at Lake\">\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. \n\nAenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\n> Praesent eu odio in velit maximus accumsan vitae id lectus. \n> \n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\n<img class=\"right\" src=\"//images.ctfassets.net/cau8n5qal8o5/136BvUcd0TA7xbOybUCrAJ/bb80209bfe66262882f0c622768bfb2d/blog-image-2.jpg\" alt=\"Mountains\">\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare.\n\nQuam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci."
+          },
+          "seoTitle": {
+            "en-US": "A Guide to New Zealand"
+          },
+          "seoDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "seoImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7Ifb3ABab88pXiC9W7i5Un"
+              }
+            }
+          },
+          "seoAuthor": {
+            "en-US": "Hunter Becton"
+          },
+          "seoKeywords": {
+            "en-US": [
+              "travel",
+              "travel guide",
+              "travel blog",
+              "new zealand"
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7nFaaiXYOe3IC6whiWNa3I"
+              },
+              "path": [
+                "fields",
+                "categories",
+                "en-US",
+                0
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/exb1xk3aq7pb/environments/master/entries/6SMVezMbs66kI8IjEqgwL4/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.1.1; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/19.0.0;",
+            "Authorization": "Bearer ...q_3rM",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "fd22b0f5f91d07aaa13ae38aabf8026d"
+      }
+    }
+  },
+  {
+    "ts": "2019-10-14T13:16:39.153Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "exb1xk3aq7pb"
+            }
+          },
+          "id": "1gs07doONkBy4LHvNb9B8p",
+          "type": "Entry",
+          "createdAt": "2019-10-14T13:16:35.950Z",
+          "updatedAt": "2019-10-14T13:16:35.950Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "content"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "Hands-on Review of the Canon Mark IV"
+          },
+          "featuredImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6bZsrscBjYtSLWZbhZlP7H"
+              }
+            }
+          },
+          "categories": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "2PmLH6avA3z9fApgNY9m8R"
+                }
+              }
+            ]
+          },
+          "slug": {
+            "en-US": "hands-on-review-canon-mark-iv"
+          },
+          "shortDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "home": {
+            "en-US": true
+          },
+          "content": {
+            "en-US": "Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. Praesent in nunc sit amet orci dignissim mollis. Pellentesque elementum lacinia urna, sit amet scelerisque libero blandit vel. Aliquam erat volutpat. Praesent vel nunc orci. Suspendisse quis mauris sed ipsum lobortis semper id nec diam. Donec a porta nibh. Vivamus nibh metus, facilisis ut maximus eget, lobortis at erat. Nulla luctus nec eros ac vehicula. Nullam scelerisque laoreet lorem a sodales.\n\nNunc ipsum orci, consectetur in euismod id, adipiscing nec libero. Vivamus sed nisi quam. Donec id arcu non libero pellentesque condimentum at in mauris. Duis et lacus lectus, eu aliquet tortor. Maecenas cursus consectetur tellus non lobortis. Donec sed arcu a justo cursus varius ut et diam. Suspendisse lobortis pulvinar velit, id convallis eros pulvinar ac. Cras a lorem lorem, et feugiat leo. Nunc vestibulum venenatis est nec tempor. Nunc mattis sem in mauris posuere aliquam.\n\n<img class=\"center\" src=\"//images.ctfassets.net/cau8n5qal8o5/6x11nSaCm9UJTpqe0uSx6/8326df8a1e874c4885319aa3c38bd598/blog-image-1.jpg\" alt=\"Girl at Lake\">\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. \n\nAenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\n> Praesent eu odio in velit maximus accumsan vitae id lectus. \n> \n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\n<img class=\"right\" src=\"//images.ctfassets.net/cau8n5qal8o5/136BvUcd0TA7xbOybUCrAJ/bb80209bfe66262882f0c622768bfb2d/blog-image-2.jpg\" alt=\"Mountains\">\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare.\n\nQuam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci."
+          },
+          "seoTitle": {
+            "en-US": "Hands-on review of the Canon Mark IV"
+          },
+          "seoDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "seoImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6bZsrscBjYtSLWZbhZlP7H"
+              }
+            }
+          },
+          "seoAuthor": {
+            "en-US": "Hunter Becton"
+          },
+          "seoKeywords": {
+            "en-US": [
+              "travel",
+              "travel gear",
+              "dslr review",
+              "canon mark iv",
+              "canon review"
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2PmLH6avA3z9fApgNY9m8R"
+              },
+              "path": [
+                "fields",
+                "categories",
+                "en-US",
+                0
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/exb1xk3aq7pb/environments/master/entries/1gs07doONkBy4LHvNb9B8p/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.1.1; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/19.0.0;",
+            "Authorization": "Bearer ...q_3rM",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "3bd7875b5434cf0b073fde8c28dde0df"
+      }
+    }
+  },
+  {
+    "ts": "2019-10-14T13:16:39.662Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "exb1xk3aq7pb"
+            }
+          },
+          "id": "66cKoSSbuQBBW3p0dvRGTO",
+          "type": "Entry",
+          "createdAt": "2019-10-14T13:16:36.124Z",
+          "updatedAt": "2019-10-14T13:16:36.124Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "content"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "Here’s Why you Should Travel for 6 Months After College"
+          },
+          "featuredImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7ulOYfe9FWxwisL2ftTJ2O"
+              }
+            }
+          },
+          "categories": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "2zSxn3cIQeseANM29L2iBU"
+                }
+              }
+            ]
+          },
+          "slug": {
+            "en-US": "why-travel-after-college"
+          },
+          "shortDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "home": {
+            "en-US": true
+          },
+          "content": {
+            "en-US": "Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. Praesent in nunc sit amet orci dignissim mollis. Pellentesque elementum lacinia urna, sit amet scelerisque libero blandit vel. Aliquam erat volutpat. Praesent vel nunc orci. Suspendisse quis mauris sed ipsum lobortis semper id nec diam. Donec a porta nibh. Vivamus nibh metus, facilisis ut maximus eget, lobortis at erat. Nulla luctus nec eros ac vehicula. Nullam scelerisque laoreet lorem a sodales.\n\nNunc ipsum orci, consectetur in euismod id, adipiscing nec libero. Vivamus sed nisi quam. Donec id arcu non libero pellentesque condimentum at in mauris. Duis et lacus lectus, eu aliquet tortor. Maecenas cursus consectetur tellus non lobortis. Donec sed arcu a justo cursus varius ut et diam. Suspendisse lobortis pulvinar velit, id convallis eros pulvinar ac. Cras a lorem lorem, et feugiat leo. Nunc vestibulum venenatis est nec tempor. Nunc mattis sem in mauris posuere aliquam.\n\n<img class=\"center\" src=\"//images.ctfassets.net/cau8n5qal8o5/6x11nSaCm9UJTpqe0uSx6/8326df8a1e874c4885319aa3c38bd598/blog-image-1.jpg\" alt=\"Girl at Lake\">\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. \n\nAenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\n> Praesent eu odio in velit maximus accumsan vitae id lectus. \n> \n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\n<img class=\"right\" src=\"//images.ctfassets.net/cau8n5qal8o5/136BvUcd0TA7xbOybUCrAJ/bb80209bfe66262882f0c622768bfb2d/blog-image-2.jpg\" alt=\"Mountains\">\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare.\n\nQuam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci."
+          },
+          "seoTitle": {
+            "en-US": "Here’s why you should travel for 6 months after college"
+          },
+          "seoDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "seoImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7ulOYfe9FWxwisL2ftTJ2O"
+              }
+            }
+          },
+          "seoAuthor": {
+            "en-US": "Hunter Becton"
+          },
+          "seoKeywords": {
+            "en-US": [
+              "travel",
+              "travel blog",
+              "nomad"
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2zSxn3cIQeseANM29L2iBU"
+              },
+              "path": [
+                "fields",
+                "categories",
+                "en-US",
+                0
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/exb1xk3aq7pb/environments/master/entries/66cKoSSbuQBBW3p0dvRGTO/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.1.1; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/19.0.0;",
+            "Authorization": "Bearer ...q_3rM",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "a1cf118517710d763844f11272f6970f"
+      }
+    }
+  },
+  {
+    "ts": "2019-10-14T13:16:40.174Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "exb1xk3aq7pb"
+            }
+          },
+          "id": "6hkwQSOBUgnEZVZJy1AKTi",
+          "type": "Entry",
+          "createdAt": "2019-10-14T13:16:38.046Z",
+          "updatedAt": "2019-10-14T13:16:38.046Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "content"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "Top 10 Bed and Breakfasts in the Midwest"
+          },
+          "featuredImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7HCDDRPWhzI7OPqzjD4A1r"
+              }
+            }
+          },
+          "categories": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "7nFaaiXYOe3IC6whiWNa3I"
+                }
+              }
+            ]
+          },
+          "slug": {
+            "en-US": "top-10-bed-and-breakfasts-midwest"
+          },
+          "shortDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "home": {
+            "en-US": true
+          },
+          "content": {
+            "en-US": "Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. Praesent in nunc sit amet orci dignissim mollis. Pellentesque elementum lacinia urna, sit amet scelerisque libero blandit vel. Aliquam erat volutpat. Praesent vel nunc orci. Suspendisse quis mauris sed ipsum lobortis semper id nec diam. Donec a porta nibh. Vivamus nibh metus, facilisis ut maximus eget, lobortis at erat. Nulla luctus nec eros ac vehicula. Nullam scelerisque laoreet lorem a sodales.\n\nNunc ipsum orci, consectetur in euismod id, adipiscing nec libero. Vivamus sed nisi quam. Donec id arcu non libero pellentesque condimentum at in mauris. Duis et lacus lectus, eu aliquet tortor. Maecenas cursus consectetur tellus non lobortis. Donec sed arcu a justo cursus varius ut et diam. Suspendisse lobortis pulvinar velit, id convallis eros pulvinar ac. Cras a lorem lorem, et feugiat leo. Nunc vestibulum venenatis est nec tempor. Nunc mattis sem in mauris posuere aliquam.\n\n<img class=\"center\" src=\"//images.ctfassets.net/cau8n5qal8o5/6x11nSaCm9UJTpqe0uSx6/8326df8a1e874c4885319aa3c38bd598/blog-image-1.jpg\" alt=\"Girl at Lake\">\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. \n\nAenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\n> Praesent eu odio in velit maximus accumsan vitae id lectus. \n> \n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\n<img class=\"right\" src=\"//images.ctfassets.net/cau8n5qal8o5/136BvUcd0TA7xbOybUCrAJ/bb80209bfe66262882f0c622768bfb2d/blog-image-2.jpg\" alt=\"Mountains\">\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare.\n\nQuam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci."
+          },
+          "seoTitle": {
+            "en-US": "Top 10 bed and breakfasts in the midwest"
+          },
+          "seoDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "seoImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7HCDDRPWhzI7OPqzjD4A1r"
+              }
+            }
+          },
+          "seoAuthor": {
+            "en-US": "Hunter Becton"
+          },
+          "seoKeywords": {
+            "en-US": [
+              "travel",
+              "travel guide",
+              "usa",
+              "bed and breakfasts",
+              "midwest"
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7nFaaiXYOe3IC6whiWNa3I"
+              },
+              "path": [
+                "fields",
+                "categories",
+                "en-US",
+                0
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/exb1xk3aq7pb/environments/master/entries/6hkwQSOBUgnEZVZJy1AKTi/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.1.1; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/19.0.0;",
+            "Authorization": "Bearer ...q_3rM",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "594325a5cfb22a24aa74b8f4951d4764"
+      }
+    }
+  },
+  {
+    "ts": "2019-10-14T13:16:40.790Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "exb1xk3aq7pb"
+            }
+          },
+          "id": "1NXYYkOkf4AdW9PwcPdMnD",
+          "type": "Entry",
+          "createdAt": "2019-10-14T13:16:36.173Z",
+          "updatedAt": "2019-10-14T13:16:36.173Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "content"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "Top 3 National Parks in the United States"
+          },
+          "featuredImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "16CCIMhX6BM1teONYg8KKd"
+              }
+            }
+          },
+          "categories": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "7DJtwNhmRjGV6RxxPf0qfV"
+                }
+              }
+            ]
+          },
+          "slug": {
+            "en-US": "top-3-national-parks-usa"
+          },
+          "shortDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "home": {
+            "en-US": true
+          },
+          "content": {
+            "en-US": "Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. Praesent in nunc sit amet orci dignissim mollis. Pellentesque elementum lacinia urna, sit amet scelerisque libero blandit vel. Aliquam erat volutpat. Praesent vel nunc orci. Suspendisse quis mauris sed ipsum lobortis semper id nec diam. Donec a porta nibh. Vivamus nibh metus, facilisis ut maximus eget, lobortis at erat. Nulla luctus nec eros ac vehicula. Nullam scelerisque laoreet lorem a sodales.\n\nNunc ipsum orci, consectetur in euismod id, adipiscing nec libero. Vivamus sed nisi quam. Donec id arcu non libero pellentesque condimentum at in mauris. Duis et lacus lectus, eu aliquet tortor. Maecenas cursus consectetur tellus non lobortis. Donec sed arcu a justo cursus varius ut et diam. Suspendisse lobortis pulvinar velit, id convallis eros pulvinar ac. Cras a lorem lorem, et feugiat leo. Nunc vestibulum venenatis est nec tempor. Nunc mattis sem in mauris posuere aliquam.\n\n<img class=\"center\" src=\"//images.ctfassets.net/cau8n5qal8o5/6x11nSaCm9UJTpqe0uSx6/8326df8a1e874c4885319aa3c38bd598/blog-image-1.jpg\" alt=\"Girl at Lake\">\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. \n\nAenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\n> Praesent eu odio in velit maximus accumsan vitae id lectus. \n> \n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\n<img class=\"right\" src=\"//images.ctfassets.net/cau8n5qal8o5/136BvUcd0TA7xbOybUCrAJ/bb80209bfe66262882f0c622768bfb2d/blog-image-2.jpg\" alt=\"Mountains\">\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare.\n\nQuam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci."
+          },
+          "seoTitle": {
+            "en-US": "Top 3 national parks in the United States"
+          },
+          "seoDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "seoImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "16CCIMhX6BM1teONYg8KKd"
+              }
+            }
+          },
+          "seoAuthor": {
+            "en-US": "Hunter Becton"
+          },
+          "seoKeywords": {
+            "en-US": [
+              "travel",
+              "travel guide",
+              "usa",
+              "national parks"
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7DJtwNhmRjGV6RxxPf0qfV"
+              },
+              "path": [
+                "fields",
+                "categories",
+                "en-US",
+                0
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/exb1xk3aq7pb/environments/master/entries/1NXYYkOkf4AdW9PwcPdMnD/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.1.1; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/19.0.0;",
+            "Authorization": "Bearer ...q_3rM",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "e8dbeb9894c46c052bf7671924dc4b34"
+      }
+    }
+  },
+  {
+    "ts": "2019-10-14T13:16:41.405Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "exb1xk3aq7pb"
+            }
+          },
+          "id": "6l3fIDAQb5XOHQiUCM6Ny6",
+          "type": "Entry",
+          "createdAt": "2019-10-14T13:16:36.191Z",
+          "updatedAt": "2019-10-14T13:16:36.191Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "content"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "Travel Guide: 10 Days Biking Argentina "
+          },
+          "featuredImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "5zoMMUH78IsD02VacXYHgy"
+              }
+            }
+          },
+          "categories": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "7nFaaiXYOe3IC6whiWNa3I"
+                }
+              }
+            ]
+          },
+          "slug": {
+            "en-US": "biking-argentina-travel-guide"
+          },
+          "shortDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "home": {
+            "en-US": true
+          },
+          "content": {
+            "en-US": "Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. Praesent in nunc sit amet orci dignissim mollis. Pellentesque elementum lacinia urna, sit amet scelerisque libero blandit vel. Aliquam erat volutpat. Praesent vel nunc orci. Suspendisse quis mauris sed ipsum lobortis semper id nec diam. Donec a porta nibh. Vivamus nibh metus, facilisis ut maximus eget, lobortis at erat. Nulla luctus nec eros ac vehicula. Nullam scelerisque laoreet lorem a sodales.\n\nNunc ipsum orci, consectetur in euismod id, adipiscing nec libero. Vivamus sed nisi quam. Donec id arcu non libero pellentesque condimentum at in mauris. Duis et lacus lectus, eu aliquet tortor. Maecenas cursus consectetur tellus non lobortis. Donec sed arcu a justo cursus varius ut et diam. Suspendisse lobortis pulvinar velit, id convallis eros pulvinar ac. Cras a lorem lorem, et feugiat leo. Nunc vestibulum venenatis est nec tempor. Nunc mattis sem in mauris posuere aliquam.\n\n<img class=\"center\" src=\"//images.ctfassets.net/cau8n5qal8o5/6x11nSaCm9UJTpqe0uSx6/8326df8a1e874c4885319aa3c38bd598/blog-image-1.jpg\" alt=\"Girl at Lake\">\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. \n\nAenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\n> Praesent eu odio in velit maximus accumsan vitae id lectus. \n> \n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\n<img class=\"right\" src=\"//images.ctfassets.net/cau8n5qal8o5/136BvUcd0TA7xbOybUCrAJ/bb80209bfe66262882f0c622768bfb2d/blog-image-2.jpg\" alt=\"Mountains\">\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare.\n\nQuam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci."
+          },
+          "seoTitle": {
+            "en-US": "Travel guide: 10 days biking Argentina "
+          },
+          "seoDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "seoImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "5zoMMUH78IsD02VacXYHgy"
+              }
+            }
+          },
+          "seoAuthor": {
+            "en-US": "Hunter Becton"
+          },
+          "seoKeywords": {
+            "en-US": [
+              "travel",
+              "travel guide",
+              "biking",
+              "argentina"
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7nFaaiXYOe3IC6whiWNa3I"
+              },
+              "path": [
+                "fields",
+                "categories",
+                "en-US",
+                0
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/exb1xk3aq7pb/environments/master/entries/6l3fIDAQb5XOHQiUCM6Ny6/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.1.1; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/19.0.0;",
+            "Authorization": "Bearer ...q_3rM",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "21b8f75fc0b7859b0742c3d874e610d2"
+      }
+    }
+  },
+  {
+    "ts": "2019-10-14T13:16:41.724Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "exb1xk3aq7pb"
+            }
+          },
+          "id": "5oa8HMFbpI8wXkkCR7CXrB",
+          "type": "Entry",
+          "createdAt": "2019-10-14T13:16:36.206Z",
+          "updatedAt": "2019-10-14T13:16:36.206Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "content"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "Hands-on Review of the Nikon Z7"
+          },
+          "featuredImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "5J1waqpZEwFYcbcAJEjdL9"
+              }
+            }
+          },
+          "categories": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "2PmLH6avA3z9fApgNY9m8R"
+                }
+              }
+            ]
+          },
+          "slug": {
+            "en-US": "hands-on-review-nikon-z7"
+          },
+          "shortDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "home": {
+            "en-US": true
+          },
+          "content": {
+            "en-US": "Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. Praesent in nunc sit amet orci dignissim mollis. Pellentesque elementum lacinia urna, sit amet scelerisque libero blandit vel. Aliquam erat volutpat. Praesent vel nunc orci. Suspendisse quis mauris sed ipsum lobortis semper id nec diam. Donec a porta nibh. Vivamus nibh metus, facilisis ut maximus eget, lobortis at erat. Nulla luctus nec eros ac vehicula. Nullam scelerisque laoreet lorem a sodales.\n\nNunc ipsum orci, consectetur in euismod id, adipiscing nec libero. Vivamus sed nisi quam. Donec id arcu non libero pellentesque condimentum at in mauris. Duis et lacus lectus, eu aliquet tortor. Maecenas cursus consectetur tellus non lobortis. Donec sed arcu a justo cursus varius ut et diam. Suspendisse lobortis pulvinar velit, id convallis eros pulvinar ac. Cras a lorem lorem, et feugiat leo. Nunc vestibulum venenatis est nec tempor. Nunc mattis sem in mauris posuere aliquam.\n\n<img class=\"center\" src=\"//images.ctfassets.net/cau8n5qal8o5/6x11nSaCm9UJTpqe0uSx6/8326df8a1e874c4885319aa3c38bd598/blog-image-1.jpg\" alt=\"Girl at Lake\">\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. \n\nAenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\n> Praesent eu odio in velit maximus accumsan vitae id lectus. \n> \n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\n<img class=\"right\" src=\"//images.ctfassets.net/cau8n5qal8o5/136BvUcd0TA7xbOybUCrAJ/bb80209bfe66262882f0c622768bfb2d/blog-image-2.jpg\" alt=\"Mountains\">\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare.\n\nQuam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci."
+          },
+          "seoTitle": {
+            "en-US": "Hands-on review of the Nikon Z7"
+          },
+          "seoDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "seoImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "5J1waqpZEwFYcbcAJEjdL9"
+              }
+            }
+          },
+          "seoAuthor": {
+            "en-US": "Hunter Becton"
+          },
+          "seoKeywords": {
+            "en-US": [
+              "travel",
+              "travel gear",
+              "dslr review",
+              "nikon z7",
+              "nikon review"
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2PmLH6avA3z9fApgNY9m8R"
+              },
+              "path": [
+                "fields",
+                "categories",
+                "en-US",
+                0
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/exb1xk3aq7pb/environments/master/entries/5oa8HMFbpI8wXkkCR7CXrB/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.1.1; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/19.0.0;",
+            "Authorization": "Bearer ...q_3rM",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "993c0ab0a0b9343d9470897534151776"
+      }
+    }
+  },
+  {
+    "ts": "2019-10-14T13:16:42.222Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "exb1xk3aq7pb"
+            }
+          },
+          "id": "19uxxik5Z1Fhrf0qtpiW1i",
+          "type": "Entry",
+          "createdAt": "2019-10-14T13:16:36.377Z",
+          "updatedAt": "2019-10-14T13:16:36.377Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "content"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "The 10 Things you Must do When Visiting Greenland"
+          },
+          "featuredImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7ldbscnDSvJDRMxWIZlc4y"
+              }
+            }
+          },
+          "categories": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "7nFaaiXYOe3IC6whiWNa3I"
+                }
+              }
+            ]
+          },
+          "slug": {
+            "en-US": "the-10-things-you-must-do-in-greenland"
+          },
+          "shortDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "content": {
+            "en-US": "Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. Praesent in nunc sit amet orci dignissim mollis. Pellentesque elementum lacinia urna, sit amet scelerisque libero blandit vel. Aliquam erat volutpat. Praesent vel nunc orci. Suspendisse quis mauris sed ipsum lobortis semper id nec diam. Donec a porta nibh. Vivamus nibh metus, facilisis ut maximus eget, lobortis at erat. Nulla luctus nec eros ac vehicula. Nullam scelerisque laoreet lorem a sodales.\n\nNunc ipsum orci, consectetur in euismod id, adipiscing nec libero. Vivamus sed nisi quam. Donec id arcu non libero pellentesque condimentum at in mauris. Duis et lacus lectus, eu aliquet tortor. Maecenas cursus consectetur tellus non lobortis. Donec sed arcu a justo cursus varius ut et diam. Suspendisse lobortis pulvinar velit, id convallis eros pulvinar ac. Cras a lorem lorem, et feugiat leo. Nunc vestibulum venenatis est nec tempor. Nunc mattis sem in mauris posuere aliquam.\n\n<img class=\"center\" src=\"//images.ctfassets.net/cau8n5qal8o5/6x11nSaCm9UJTpqe0uSx6/8326df8a1e874c4885319aa3c38bd598/blog-image-1.jpg\" alt=\"Girl at Lake\">\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. \n\nAenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\n> Praesent eu odio in velit maximus accumsan vitae id lectus. \n> \n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\n<img class=\"right\" src=\"//images.ctfassets.net/cau8n5qal8o5/136BvUcd0TA7xbOybUCrAJ/bb80209bfe66262882f0c622768bfb2d/blog-image-2.jpg\" alt=\"Mountains\">\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare.\n\nQuam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci."
+          },
+          "seoTitle": {
+            "en-US": "The 10 things you must do when visiting Greenland"
+          },
+          "seoDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "seoImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "7ldbscnDSvJDRMxWIZlc4y"
+              }
+            }
+          },
+          "seoAuthor": {
+            "en-US": "Hunter Becton"
+          },
+          "seoKeywords": {
+            "en-US": [
+              "travel",
+              "travel guide",
+              "travel blog",
+              "iceland"
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7nFaaiXYOe3IC6whiWNa3I"
+              },
+              "path": [
+                "fields",
+                "categories",
+                "en-US",
+                0
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/exb1xk3aq7pb/environments/master/entries/19uxxik5Z1Fhrf0qtpiW1i/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.1.1; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/19.0.0;",
+            "Authorization": "Bearer ...q_3rM",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "cd776ac177ee3f9afa989f48a4d568a8"
+      }
+    }
+  },
+  {
+    "ts": "2019-10-14T13:16:42.527Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "exb1xk3aq7pb"
+            }
+          },
+          "id": "6heNvn0e1pDRmqG8uxkhG7",
+          "type": "Entry",
+          "createdAt": "2019-10-14T13:16:35.513Z",
+          "updatedAt": "2019-10-14T13:16:35.513Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "59M76Hq4MSP0rELE78GIAr"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "content"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "Don’t Wait for Someone to Tell you it’s Time to Go"
+          },
+          "featuredImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4spmKJnNsQES1IOVgZNJQy"
+              }
+            }
+          },
+          "categories": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "2zSxn3cIQeseANM29L2iBU"
+                }
+              }
+            ]
+          },
+          "slug": {
+            "en-US": "time-to-go"
+          },
+          "shortDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "content": {
+            "en-US": "Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. Praesent in nunc sit amet orci dignissim mollis. Pellentesque elementum lacinia urna, sit amet scelerisque libero blandit vel. Aliquam erat volutpat. Praesent vel nunc orci. Suspendisse quis mauris sed ipsum lobortis semper id nec diam. Donec a porta nibh. Vivamus nibh metus, facilisis ut maximus eget, lobortis at erat. Nulla luctus nec eros ac vehicula. Nullam scelerisque laoreet lorem a sodales.\n\nNunc ipsum orci, consectetur in euismod id, adipiscing nec libero. Vivamus sed nisi quam. Donec id arcu non libero pellentesque condimentum at in mauris. Duis et lacus lectus, eu aliquet tortor. Maecenas cursus consectetur tellus non lobortis. Donec sed arcu a justo cursus varius ut et diam. Suspendisse lobortis pulvinar velit, id convallis eros pulvinar ac. Cras a lorem lorem, et feugiat leo. Nunc vestibulum venenatis est nec tempor. Nunc mattis sem in mauris posuere aliquam.\n\n<img class=\"center\" src=\"//images.ctfassets.net/cau8n5qal8o5/6x11nSaCm9UJTpqe0uSx6/8326df8a1e874c4885319aa3c38bd598/blog-image-1.jpg\" alt=\"Girl at Lake\">\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non. \n\nAenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\n> Praesent eu odio in velit maximus accumsan vitae id lectus. \n> \n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare mi vitae sem consequat ac bibendum neque adipiscing. Donec tellus nunc, tincidunt sed faucibus a, mattis eget purus.\n\n<img class=\"right\" src=\"//images.ctfassets.net/cau8n5qal8o5/136BvUcd0TA7xbOybUCrAJ/bb80209bfe66262882f0c622768bfb2d/blog-image-2.jpg\" alt=\"Mountains\">\n\nMauris vel tortor accumsan, faucibus orci non, varius turpis. Aenean ac eros libero. Quisque quis sapien in ante scelerisque volutpat. Cras et libero iaculis, consequat nisi nec, tristique metus. Praesent eu odio in velit maximus accumsan vitae id lectus. Aenean ullamcorper vitae tortor vitae blandit. Nullam placerat eleifend metus, at tempus lacus suscipit non.\n\nNullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci, cursus ac malesuada et, sollicitudin eu erat. Pellentesque ornare.\n\nQuam sapien ornare massa, id pulvinar quam augue vel orci. Praesent leo orci."
+          },
+          "seoTitle": {
+            "en-US": "Don’t wait for someone to tell you it’s time to go"
+          },
+          "seoDescription": {
+            "en-US": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+          },
+          "seoImage": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "4spmKJnNsQES1IOVgZNJQy"
+              }
+            }
+          },
+          "seoAuthor": {
+            "en-US": "Hunter Becton"
+          },
+          "seoKeywords": {
+            "en-US": [
+              "travel",
+              "travel guide",
+              "travel blog",
+              "travel tips"
+            ]
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2zSxn3cIQeseANM29L2iBU"
+              },
+              "path": [
+                "fields",
+                "categories",
+                "en-US",
+                0
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/exb1xk3aq7pb/environments/master/entries/6heNvn0e1pDRmqG8uxkhG7/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/1.1.1; feature space-import; sdk contentful-management.js/5.2.1; platform node.js/v10.15.3; os macOS/19.0.0;",
+            "Authorization": "Bearer ...q_3rM",
+            "user-agent": "node.js/v10.15.3",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "7d998290a5428be54292d5133de319bf"
+      }
+    }
+  },
+  {
+    "ts": "2019-10-14T13:16:42.527Z",
+    "level": "error",
+    "error": "Could not publish the following entities: A Guide to Iceland (1e8fCE1wHev1jFmtUdl0oI), Don’t Wait for Someone to Tell you it’s Time to Go (6heNvn0e1pDRmqG8uxkhG7), The 10 Things you Must do When Visiting Greenland (19uxxik5Z1Fhrf0qtpiW1i), Hands-on Review of the Nikon Z7 (5oa8HMFbpI8wXkkCR7CXrB), Travel Guide: 10 Days Biking Argentina  (6l3fIDAQb5XOHQiUCM6Ny6), Top 3 National Parks in the United States (1NXYYkOkf4AdW9PwcPdMnD), Top 10 Bed and Breakfasts in the Midwest (6hkwQSOBUgnEZVZJy1AKTi), Here’s Why you Should Travel for 6 Months After College (66cKoSSbuQBBW3p0dvRGTO), Hands-on Review of the Canon Mark IV (1gs07doONkBy4LHvNb9B8p), A Guide to New Zealand (6SMVezMbs66kI8IjEqgwL4), Top 10 Tips for Traveling More this Year (7i7Ndv1a8hYyVUAadURRN0), Lost in the City is Where I Found Myself (5TUL0shBZKwwLlDMldlr5E)"
+  }
+]
